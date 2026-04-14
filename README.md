@@ -85,10 +85,3 @@ python src/generator/clickstream_producer.py
 - Safety Stock: z * sigma_demand * sqrt(lead_time_days)
 - Reorder Point: (avg_daily_demand * lead_time_days) + safety_stock
 
-## Notes
-
-- This is an MVP focused on pipeline stability and useful business logic.
-- Advanced ML (returns/stockout probability) is planned for later.
-- Frontend complexity was intentionally kept low during initial build.
-
-
