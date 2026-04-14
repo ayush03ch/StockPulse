@@ -31,3 +31,7 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+#personal files
+/status-report/
+.access-key.png
